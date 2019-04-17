@@ -14,7 +14,7 @@ class App < Sinatra::Base
     "My hometown is in a galaxy far, far, away."
   end
   
-  get 'favorite-song' do
+  get '/favorite-song' do
     "My favorite song is Twinkle Twinkle Little Star."
   end
   
